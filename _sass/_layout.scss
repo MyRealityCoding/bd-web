@@ -132,7 +132,7 @@ a {
 				cursor: default;
 			}
 
-			background-image:url('/img/menu_hover.png');
+			background-image:url(../img/menu_hover.png);
 			background-repeat:no-repeat;
 			background-size: 100% 100%;
 
@@ -171,7 +171,7 @@ a {
 			text-decoration: none;
 			color:#00ccff;
 			text-shadow:0px 0px 7px #0000ff;
-			background-image:url('/img/menu_hover_lighted.png');
+			background-image:url(../img/menu_hover_lighted.png);
 			background-repeat:no-repeat;
 			background-size: 100% 100%;
 		}
@@ -191,7 +191,7 @@ a {
 	padding:25px;
 	padding-left:45px;
 	padding-right:45px;
-	background-image:url('../img/menu.png');
+	background-image:url(../img/menu.png);
 	background-repeat:no-repeat;
 	background-position:top center;
 	background-size: 100% auto;
@@ -225,7 +225,7 @@ a {
 				padding-left: 13px !important;
 
 				&:hover {
-					background-image:url('/img/transparent.png');
+					background-image:url(../img/transparent.png);
 					background-repeat:repeat;
 				}
 			}
@@ -248,7 +248,7 @@ a {
 // --------------------------------------------------
 
 input, textarea, select {
-	background-image:url('/img/transparent.png');
+	background-image:url(../img/transparent.png);
 	background-repeat:repeat;
 	background-color:black;
 	border:1px solid #111;
@@ -435,7 +435,7 @@ select {
 // --------------------------------------------------
 
 .memberlist {
-	background-image:url('/img/transparent.png');
+	background-image:url(../img/transparent.png);
 	background-repeat:repeat;
 	line-height:30px;
 	border-radius:8px;
@@ -460,7 +460,7 @@ select {
 		}
 
 		&.head:hover {
-			background-image:url('/img/transparent.png');
+			background-image:url(../img/transparent.png);
 	  		background-repeat:repeat;
 	  		background-color:transparent;
 		}
@@ -497,7 +497,7 @@ select {
 
 body {
 	background-color: #000;
-	background-image:url(/img/background.jpg);
+	background-image:url(../img/background.jpg);
 	background-repeat: repeat;
 	font-family: 'Exo 2', sans-serif;
 	margin:0px;
@@ -530,7 +530,7 @@ a {
 
    .head {
    	  color:#444;
-   	  background-image:url('/img/transparent.png');
+   	  background-image:url(../img/transparent.png);
 	  background-repeat:repeat;
    }
 
@@ -560,7 +560,7 @@ a:hover {
 	box-shadow:0px 0px 10px black;
 }
 .wrapper {
-	background-image:url('/img/gradient_black_top.png');
+	background-image:url(../img/gradient_black_top.png);
 	background-repeat:repeat-x;
 	min-height:500px;
 	width:100%;
@@ -569,7 +569,7 @@ a:hover {
 }
 
 .background_bottom {
-	background-image:url('/img/background_bottom.png');
+	background-image:url(../img/background_bottom.png);
 	background-position:bottom center;
 	background-repeat:no-repeat;
 	background-size:100% auto;
@@ -580,7 +580,7 @@ a:hover {
 	margin:auto;
 	width:750px;
 	height:260px;
-	background-image:url('/img/logo.png');
+	background-image:url(../img/logo.png);
 	background-repeat: no-repeat;
 	background-position: top center;
 	margin-bottom:30px;
@@ -593,13 +593,13 @@ a:hover {
 	margin:auto;
 	border-radius:$borderRadius;
 	box-shadow:0px 0px 10px black;
-	background-image:url('/img/transparent.png');
+	background-image:url(../img/transparent.png);
 	background-repeat:repeat;
 	.menu {
 		height:80px;
 		width:100%;
 		background-color:black;
-		background-image:url('/img/menu.png');
+		background-image:url(../img/menu.png);
 		background-repeat:no-repeat;
 		background-size: 100% 80px;
 		border-top-left-radius: $borderRadius;
@@ -607,7 +607,7 @@ a:hover {
 	}
 
 	.content {
-		background-image:url('/img/gradient_black_top.png');
+		background-image:url(../img/gradient_black_top.png);
 		background-repeat:repeat-x;
 		background-size:auto 200px;
 		min-height:500px;
@@ -618,14 +618,14 @@ a:hover {
 			width:28%;
 			min-width:300px;
 			height:100%;
-			background-image:url('/img/transparent.png');
+			background-image:url(../img/transparent.png);
 			background-repeat:repeat;
         	padding:20px;
 		}
 	}
 
 	.footer {
-		background-image:url('/img/transparent.png');
+		background-image:url(../img/transparent.png);
 		background-repeat:repeat;
 		display:block;
 		width:100%;
@@ -777,7 +777,7 @@ background-image: linear-gradient(to bottom, #D49217 0%, #AB491B 100%);
 		line-height:30px;
 
 		&:hover {
-			background-image:url('/img/transparent.png');
+			background-image:url(../img/transparent.png);
 			background-repeat:repeat;
 
 			.name.value {
@@ -842,7 +842,7 @@ background-image: linear-gradient(to bottom, #D49217 0%, #AB491B 100%);
 		display:block;
 		width:100%;
 		margin-bottom:20px;
-		background-image: url("/img/transparent.png");
+		background-image:url(../img/transparent.png);
 		padding:20px;
 		border-radius:15px;
 		vertical-align:text-top;
@@ -932,7 +932,7 @@ background-image: linear-gradient(to bottom, #D49217 0%, #AB491B 100%);
 
 #slideshow {
 	height:300px;
-	background-image:url('/img/loading-big.gif');
+	background-image:url(../img/loading-big.gif);
 	background-repeat:no-repeat;
 	background-position: center center;
 	background-color:black;
