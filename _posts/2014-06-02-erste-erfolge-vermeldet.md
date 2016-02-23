@@ -9,6 +9,5 @@ Nur 29 Stunden später war es soweit: unser geschätztes Mitglied [Puldus](http:
 
 Im Namen der gesamten Gilde gratulieren wir den Beiden zu ihrem verdienten Erfolg. Wir nehmen nun die ersten Veteran-Dungeons ins Visier und nähern uns dem Ziel, zusammen den ersten Raid zu bestreiten.
 
-![world-first-puldus](/img/data/puldus-server-first.jpg)
-
-![world-first-puldus](/img/data/skatefanatic-server-first.jpg)
+<img src="{{ "/img/data/puldus-server-first.jpg" | prepend:site.baseurl }}" alt="world-first-1"/>
+<img src="{{ "/img/data/skatefanatic-server-first.jpg" | prepend:site.baseurl }}" alt="world-first-2"/>

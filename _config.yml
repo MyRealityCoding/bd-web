@@ -15,7 +15,50 @@ url: "http://myrealitycoding.github.com" # the base hostname & protocol for your
 twitter_username: jekyllrb
 github_username:  jekyll
 
+paginate: 2 # pagination basted on number of posts
+
 # Build settings
 markdown: kramdown
 
 gems: [ jekyll-paginate ]
+
+exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'bootstrap.scss', 'phpbb', 'classes', 'build.sh', 'buildphp.sh'] # files to exclude
+
+navigation:
+- text: Home
+  url: /
+  icon: fa-home
+- text: Über uns
+  url: /about/
+  icon: fa-flask
+- text: Erfolge
+  url: /achievements/
+  icon: fa-trophy
+- text: Forum
+  url: /forum/
+  icon: fa-comments
+- text: Mitglieder
+  url: /members/
+  icon: fa-user
+- text: Live
+  url: /live/
+  icon: fa-play-circle-o
+- text: Medien
+  url: /media/
+  icon: fa-picture-o
+
+links:
+- url: http://www.wildstar-online.com/de/
+  name: Wildstar
+- url: http://wildstar.gamepedia.com/Wildstar_Wiki
+  name: Wiki
+- url: /impressum/
+  name: Impressum
+
+screenshots:
+- src: screenshot01.jpg
+  description: Nexus wartet darauf, erobert zu werden!
+- src: screenshot03.jpg
+  description: Wir warten auf dich. Bewerbe dich jetzt!
+- src: screenshot04.jpg
+  description: Dieser Planet steckt voller Abenteuer

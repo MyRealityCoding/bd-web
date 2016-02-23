@@ -10,22 +10,22 @@ title: We live Wildstar
                 <div class="info">
                   Verfasst von <a class="author" href="http://forum.brutal-dedication.de/memberlist.php?mode=viewprofile&un={{ post.author }}">{{ post.author }}</a> am <span class="date">{{ post.date | date: "%d. %B %Y" | replace:"January","Januar" | replace:"February","Februar" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</span>
                 </div>
-                <div class="excerpt break_lined">{{ post.excerpt }}</div><a class="button button_green" href="{{ post.url }}">Mehr lesen</a></div>
+                <div class="excerpt break_lined">{{ post.excerpt }}</div><a class="button button_green" href="{{ post.url | prepend:site.baseurl }}">Mehr lesen</a></div>
         {% endfor %}
 </div>
 <div id="post-pagination" class="pagination">
   <div class="rightfloater">
   {% if paginator.next_page %}
     <span style="display:inline-block" class="next">
-      <a class="button" href="{{ paginator.next_page_path }}"><i class="fa fa-chevron-left"></i> &Auml;ltere Eintr&auml;ge</a>
+      <a class="button" href="{{ paginator.next_page_path | prepend: site.baseurl }}"><i class="fa fa-chevron-left"></i> &Auml;ltere Eintr&auml;ge</a>
     </span>
   {% endif %}
   {% if paginator.previous_page %}
     <span style="display:inline-block" class="previous">
       {% if paginator.previous_page == 1 %}
-        <a class="button" href="/">Neuere Eintr&auml;ge <i class="fa fa-chevron-right"></i></a>
+        <a class="button" href="{{ "/" | prepend: site.baseurl }}">Neuere Eintr&auml;ge <i class="fa fa-chevron-right"></i></a>
       {% else %}
-        <a class="button" href="{{ paginator.previous_page_path }}">Neuere Eintr&auml;ge <i class="fa fa-chevron-right"></i></a>
+        <a class="button" href="{{ paginator.previous_page_path | prepend:site.baseurl }}">Neuere Eintr&auml;ge <i class="fa fa-chevron-right"></i></a>
       {% endif %}
     </span>
   {% endif %}

@@ -7,28 +7,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- chrome frame -->
 	<meta name="viewport" content="user-scalable=no"> <!-- prevents browser zoom on small devices -->
 	<link rel="author" href="humans.txt">
-	<meta name="description" content="Description Goes Here">
-	<link rel="stylesheet" href="/css/main.css">
-	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<meta name="description" content="We live Wildstar.">
+	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 	<!-- Icon -->
-	<link rel="shortcut icon" href="/ico/favicon.png">
+	<link rel="shortcut icon" href="{{ "/ico/favicon.png" | prepend: site.baseurl }}">
 
-	<link rel="stylesheet" href="/css/craftyslide.css" />
+	<link rel="stylesheet" href="{{ "/css/craftyslide.css" | prepend: site.baseurl }}" />
+	<link rel="stylesheet" href="{{ "/css/tipsy.css" | prepend: site.baseurl }}" />
+
+	<link rel="stylesheet" href="{{ "/css/lightbox.css" | prepend: site.baseurl }}">
 
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Exo+2:400,700' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
+
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script>if (!window.jQuery) {document.write('<script src="/js/jquery.min.js"><\/script>');}</script>
-	<script src="/js/jquery.tipsy.js"></script>
-	<script src="/js/jquery.members.js"></script>
-	<script src="/js/jquery.ice.js"></script>
-	<script src="/js/jquery.recrutement.js"></script>
-	<script src="/js/jquery.validate.min.js"></script>
-	<script src="/js/additional-methods.min.js"></script>
-	<script src="/js/jquery.customselect.min.js"></script>
+	<script>if (!window.jQuery) {document.write('<script src="{{ "/js/jquery.tipsy.js" | prepend: site.baseurl }}><\/script>');}</script>
+	<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/jquery.members.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/jquery.ice.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/jquery.recrutement.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/jquery.achievements.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/jquery.validate.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/additional-methods.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/jquery.twttrfy.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/lightbox.min.js" | prepend: site.baseurl }}"></script>
 </head>
 <body>
 
@@ -66,7 +72,7 @@
 										{{ content }}
 									</div>
 								</div>
-								<a href="/" class="button button_green"><i class="fa fa-caret-square-o-left"></i> Zur&uuml;ck zur &Uuml;bersicht</a>
+								<a href="{{ "/" | prepend: site.baseurl }}" class="button button_green"><i class="fa fa-caret-square-o-left"></i> Zur&uuml;ck zur &Uuml;bersicht</a>
 								{% include disqus.html %}
 						</div>
 					</div>
@@ -78,7 +84,7 @@
 						<h2>Wir suchen:</h2>
 		        		{% include classes.html %}
 
-		        		<a class="button_green apply" href="/apply#paragraph">Jetzt bewerben</a>
+		        		<a class="button_green apply" href="{{ "/apply#paragraph" | prepend:site.baseurl }}">Jetzt bewerben</a>
 
 		        		{% include postlist.html %}
 		        	</div></div>
@@ -93,7 +99,7 @@
 
 		</div></div>
 
-		<script src="/js/craftyslide.min.js"></script>
-		<script src="/js/custom.js"></script>
+		<script src="{{ "/js/craftyslide.min.js" | prepend:site.baseurl }}"></script>
+		<script src="{{ "/js/custom.js" | prepend:site.baseurl }}"></script>
 	</body>
 	</html>

@@ -5,7 +5,7 @@
        {% assign current = link.url|append:"index.html" %}
        <li{% if page.url == current %}
        class="current"
-       {% endif %}><a href="{{link.url}}"
+       {% endif %}><a href="{{link.url | prepend: site.baseurl }}"
        {% if link.target != null %}
         target="{{link.target}}"
        {% endif %}>
