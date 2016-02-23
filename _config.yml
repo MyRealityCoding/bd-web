@@ -10,7 +10,7 @@ title: Brutal Dedication
 email: admin@brutal-dedication.de
 description: > # this means to ignore newlines until "baseurl:"
   We live Wildstar.
-baseurl: "bd-web" # the subpath of your site, e.g. /blog
+baseurl: "/bd-web" # the subpath of your site, e.g. /blog
 url: "http://myrealitycoding.github.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
