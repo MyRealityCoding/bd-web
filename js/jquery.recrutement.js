@@ -1,5 +1,5 @@
 /**
- * 
+ *
  *
  * @author Miguel Gonzalez <miguel-gonzalez@gmx.de>
  * @since 1.0
@@ -13,7 +13,7 @@
  		recrutement: function(options) {
 
  			var defaults = {
-                datasource: "/recrutement.json",
+                datasource: "recrutement.json",
                 animated: true
             };
 
@@ -54,10 +54,10 @@
                 var result = '<div class="head row"><span class="cell">Klasse</span><span class="cell status">Bedarf</span></div>';
 
                 for (var i = 0; i < classes.length; ++i) {
-                    
+
                     var element = classes[i];
 
-                    result += '<a class="row ' + element.name + '" href="/apply#paragraph">';
+                    result += '<a class="row ' + element.name + '" href="apply#paragraph">';
                     result += '<span class="name cell value">' + translateClass(element.name) + '</span>';
                     result += '<span class="status cell value">' + generatePriority(element.specs) + '</span>';
                     result += '</a>';

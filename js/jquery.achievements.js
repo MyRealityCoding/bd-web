@@ -1,5 +1,5 @@
 /**
- * 
+ *
  *
  * @author Miguel Gonzalez <miguel-gonzalez@gmx.de>
  * @since 1.0
@@ -13,7 +13,7 @@
  		achievements: function(options) {
 
  			var defaults = {
-                datasource: "/recrutement.json",
+                datasource: "../achievements.json",
                 animated: true
             };
 
@@ -44,7 +44,7 @@
                 });
 
                 var result = '';
-                
+
                 for (var i = 0; i < data.length; ++i) {
                     result += generateAchievement(data[i]);
                 }
@@ -57,7 +57,7 @@
                 var result = '<a href="' + a.url + '" class="achievement">';
 
                 result += '<div class="table"><div class="row"><div class="cell icon">';
-                result += '<img src="' + a.image + '"/>';
+                result += '<img src="../' + a.image + '"/>';
                 result += '</div><div class="cell">';
                 result += '<div class="achievementContent">';
                 result += '<div class="title">' + a.name + '</div>';
