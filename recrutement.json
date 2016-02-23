@@ -1,0 +1,88 @@
+{
+    "recrutement" : [
+
+           {
+               "name" : "warrior",
+               "specs" : [
+                  {
+                  	"name" : "tank",
+                  	"priority" : "low"
+                  },
+                  {
+                  	"name" : "dd",
+                  	"priority" : "normal"
+                  }
+               ]
+           },
+
+           {
+               "name" : "esper",
+               "specs" : [
+                  {
+                  	"name" : "heal",
+                  	"priority" : "low"
+                  },
+                  {
+                  	"name" : "dd",
+                  	"priority" : "normal"
+                  }
+               ]
+           },
+
+           {
+               "name" : "spellslinger",
+               "specs" : [
+                  {
+                  	"name" : "heal",
+                  	"priority" : "high"
+                  },
+                  {
+                  	"name" : "dd",
+                  	"priority" : "normal"
+                  }
+               ]
+           },
+
+           {
+               "name" : "stalker",
+               "specs" : [
+                  {
+                  	"name" : "tank",
+                  	"priority" : "high"
+                  },
+                  {
+                  	"name" : "dd",
+                  	"priority" : "high"
+                  }
+               ]
+           },
+
+           {
+               "name" : "medic",
+               "specs" : [
+                  {
+                  	"name" : "heal",
+                  	"priority" : "normal"
+                  },
+                  {
+                  	"name" : "dd",
+                  	"priority" : "normal"
+                  }
+               ]
+           },
+
+           {
+               "name" : "engineer",
+               "specs" : [
+                  {
+                  	"name" : "tank",
+                  	"priority" : "low"
+                  },
+                  {
+                  	"name" : "dd",
+                  	"priority" : "normal"
+                  }
+               ]
+           }
+    ]
+}

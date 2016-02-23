@@ -1,0 +1,111 @@
+---
+layout: default
+title: Bewerbung
+---
+<h1 id="paragraph">Bewerbung</h1>
+<p>Wir sind eine Gemeinschaft von Wildstar-Spielern, welche neue Mitglieder sucht! Wir sind eine Dominion-Gilde, die sich gerne für neue Mitglieder öffnet. Erfahre <a href="/about#ziele">hier</a> mehr &uuml;ber unsere Ziele und &uuml;ber <a href="http://forum.brutal-dedication.de/viewtopic.php?f=5&t=5">unsere Anforderungen</a>. Du m&ouml;chtest Dich uns anschließen? Bewirb dich jetzt!</p>
+
+<p style="color:#00ff00"><b>Tipp</b>: Bitte achte auf deine Rechtschreibung und Grammatik.</p>
+<p style="color:#ff0000"><b>Achtung</b>: Wir nehmen nur Spieler der <b><u>Stufe 50</u></b> auf!</p>
+
+<form id="applyForm" class="application" action="http://forum.brutal-dedication.de/verify_application.php" method="post">
+
+	<h2>Allgemeines</h2>
+
+	<!--  -->
+	<div class="question">Wie heißt du in Wildstar?</div>
+	<input name="username" type="text" required />
+
+	<div class="question">Wie lautet deine Email-Adresse?</div>
+	<input name="email" type="email" required />
+
+	<div class="question">Wie alt bist du?</div>
+	<input type="number" name="age" min="16">
+
+	<div class="question">Wie bist du auf uns gestoßen?</div>
+	<textarea name="reason" required></textarea>
+
+	<h2>Vorgeschichte</h2>
+
+	<div class="question">Welche MMORPGs hast Du bereits schon gespielt?</div>
+
+	<textarea name="mmorpgs" required></textarea>
+
+	<div class="question">Was für Raiderfahrung bringst Du mit?</div>
+	<textarea name="experience" required></textarea>
+
+	<div class="question">Wie viele Jahre MMO-Erfahrung hast du bereits?</div>
+	<input type="number" name="mmoYears" min="1">
+
+	<h2>Details</h2>
+
+	<div class="question">Welche Klasse spielst du?</div>
+	<select name="class">
+	    <option value="warrior">Krieger</option>
+	    <option value="esper">Esper</option>
+	    <option value="spellslinger">Arkansch&uuml;tze</option>
+	    <option value="stalker">Meuchler</option>
+	    <option value="medic">Sanit&auml;ter</option>
+	    <option value="engineer">Techpionier</option>
+    </select>
+
+    <div class="question">F&uuml;r welche Rasse hast Du dich entschieden?</div>
+	<select name="race">
+	    <option value="cassian">Cassian</option>
+	    <option value="chua">Chua</option>
+	    <option value="draken">Draken</option>
+	    <option value="mechari">Mechari</option>
+    </select>
+
+    <div class="question">Wie weit bist du mit der Prequest?</div>
+	<input name="prequest" type="text" required></textarea>
+
+	<div class="question">Welche Spielweise bevorzugst du?</div>
+	<select name="specialization">
+	    <option value="tank">Tank</option>
+	    <option value="dd">Damage Dealer</option>
+	    <option value="heal">Healer</option>
+    </select>
+
+	<div class="question">Welches Prequest Level hast du?</div>
+	<select name="class">
+	    <option value="warrior">Krieger</option>
+	    <option value="esper">Esper</option>
+	    <option value="spellslinger">Arkansch&uuml;tze</option>
+	    <option value="stalker">Meuchler</option>
+	    <option value="medic">Sanit&auml;ter</option>
+	    <option value="engineer">Techpionier</option>
+    </select>
+
+	<div class="question">Warum m&ouml;chtest du Dich uns anschließen?</div>
+	<textarea name="whyUs" required></textarea>
+
+	<div class="question">Was m&ouml;chtest Du bei uns erreichen?</div>
+	<textarea name="goals" required></textarea>
+
+	<h2>Pers&ouml;nliches</h2>
+
+	<div class="question">Wie w&uuml;rdest du dich selbst beschreiben?</div>
+	<textarea name="bio" required></textarea>
+
+	<div class="question">Wie sehen deine Raid-Zeiten aus?</div>
+	<textarea name="about" required></textarea>
+
+	<div class="question">Wieviel RAM hat dein Computer?</div>
+	<input type="text" name="ram" required />
+
+	<div class="question">Was hast Du f&uuml;r eine Grafikkarte?</div>
+	<input type="text" name="graphics" required />
+
+	<div class="question">Was f&uuml;r ein CPU-Modell hat dein PC?</div>
+	<input type="text" name="cpu" required />
+
+	<div class="question">Wie hoch ist deine Internet-Anbindung?</div>
+	<input type="text" name="inetspeed" required />
+
+	<div class="submit"><input class="button_green" type="submit" value="Bewerbung jetzt einsenden!"/></div>
+</form>
+
+<script type="javascript/text">
+	$("#applyForm").validate();
+</script>
