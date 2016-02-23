@@ -2,7 +2,7 @@
 <div class="menu">
 <ul>
 {% for link in site.navigation %}
-       {% assign current = link.url|append:"index.html" %}
+       {% assign current = link.url| prepend: site.baseurl | prepend: site.url%}
        <li{% if page.url == current %}
        class="current"
        {% endif %}><a href="{{link.url | prepend: site.baseurl }}"
